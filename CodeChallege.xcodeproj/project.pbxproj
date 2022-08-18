@@ -8,14 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		06A3712028AD75AD0097D417 /* CodeChallegeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A3711F28AD75AD0097D417 /* CodeChallegeApp.swift */; };
-		06A3712228AD75AD0097D417 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A3712128AD75AD0097D417 /* ContentView.swift */; };
 		06A3712428AD75B10097D417 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06A3712328AD75B10097D417 /* Assets.xcassets */; };
 		06A3712728AD75B20097D417 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06A3712628AD75B20097D417 /* Preview Assets.xcassets */; };
-		06A3712928AD75B20097D417 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A3712828AD75B20097D417 /* Persistence.swift */; };
 		06A3712C28AD75B20097D417 /* CodeChallege.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 06A3712A28AD75B20097D417 /* CodeChallege.xcdatamodeld */; };
 		06A3713628AD75B20097D417 /* CodeChallegeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A3713528AD75B20097D417 /* CodeChallegeTests.swift */; };
 		06A3714028AD75B20097D417 /* CodeChallegeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A3713F28AD75B20097D417 /* CodeChallegeUITests.swift */; };
 		06A3714228AD75B20097D417 /* CodeChallegeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A3714128AD75B20097D417 /* CodeChallegeUITestsLaunchTests.swift */; };
+		06A3714F28AD76630097D417 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A3714E28AD76630097D417 /* MapViewModel.swift */; };
+		06A3715128ADC7220097D417 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A3715028ADC7220097D417 /* Location.swift */; };
+		06A3715328ADC7800097D417 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A3715228ADC7800097D417 /* MapView.swift */; };
+		06A3715528ADC8020097D417 /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A3715428ADC8020097D417 /* LocationCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,16 +40,18 @@
 /* Begin PBXFileReference section */
 		06A3711C28AD75AD0097D417 /* CodeChallege.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeChallege.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06A3711F28AD75AD0097D417 /* CodeChallegeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeChallegeApp.swift; sourceTree = "<group>"; };
-		06A3712128AD75AD0097D417 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		06A3712328AD75B10097D417 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06A3712628AD75B20097D417 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		06A3712828AD75B20097D417 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		06A3712B28AD75B20097D417 /* CodeChallege.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CodeChallege.xcdatamodel; sourceTree = "<group>"; };
 		06A3713128AD75B20097D417 /* CodeChallegeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeChallegeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06A3713528AD75B20097D417 /* CodeChallegeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeChallegeTests.swift; sourceTree = "<group>"; };
 		06A3713B28AD75B20097D417 /* CodeChallegeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeChallegeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06A3713F28AD75B20097D417 /* CodeChallegeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeChallegeUITests.swift; sourceTree = "<group>"; };
 		06A3714128AD75B20097D417 /* CodeChallegeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeChallegeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		06A3714E28AD76630097D417 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		06A3715028ADC7220097D417 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		06A3715228ADC7800097D417 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		06A3715428ADC8020097D417 /* LocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +103,11 @@
 			isa = PBXGroup;
 			children = (
 				06A3711F28AD75AD0097D417 /* CodeChallegeApp.swift */,
-				06A3712128AD75AD0097D417 /* ContentView.swift */,
+				06A3714E28AD76630097D417 /* MapViewModel.swift */,
+				06A3715428ADC8020097D417 /* LocationCell.swift */,
+				06A3715228ADC7800097D417 /* MapView.swift */,
+				06A3715028ADC7220097D417 /* Location.swift */,
 				06A3712328AD75B10097D417 /* Assets.xcassets */,
-				06A3712828AD75B20097D417 /* Persistence.swift */,
 				06A3712A28AD75B20097D417 /* CodeChallege.xcdatamodeld */,
 				06A3712528AD75B20097D417 /* Preview Content */,
 			);
@@ -263,9 +269,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06A3712928AD75B20097D417 /* Persistence.swift in Sources */,
+				06A3715528ADC8020097D417 /* LocationCell.swift in Sources */,
+				06A3714F28AD76630097D417 /* MapViewModel.swift in Sources */,
 				06A3712C28AD75B20097D417 /* CodeChallege.xcdatamodeld in Sources */,
-				06A3712228AD75AD0097D417 /* ContentView.swift in Sources */,
+				06A3715328ADC7800097D417 /* MapView.swift in Sources */,
+				06A3715128ADC7220097D417 /* Location.swift in Sources */,
 				06A3712028AD75AD0097D417 /* CodeChallegeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
